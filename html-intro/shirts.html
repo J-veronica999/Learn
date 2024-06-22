@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container{
+        position:relative;
+        width:275px;
+        height: 300px;
+       
+        border:none;
+        display:inline-block;
+      }
+      .shirt{
+        display: inline-block;
+        width:275px;
+        height: 300px;
+        position:absolute;
+        bottom:0px;
+        object-fit: cover;
+        
+        
+      }
+      .discount-tag{
+        padding-left:8px ;
+        padding-right:8px ;
+        padding-top:5px ;
+        padding-bottom: 5px;
+        background-color: rgb(194, 123, 146);
+        color:white;
+        position:absolute;
+        top:7px;
+        right:0px;
+       
+      }
+      .bottom-overlay{
+        position:absolute;
+        right: 0px;
+        left:0px;
+        bottom:0px;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.8);
+        display:flex;
+        align-items: center;
+        justify-content:center;
+      }
+      .addtocart{
+        padding-left:10px ;
+        padding-right:10px ;
+        padding-top:5px ;
+        padding-bottom: 5px;
+        border-width: 1px;
+        border-color: black;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="shirt" src="images/plainT.webp">
+      <div class="discount-tag">20% OFF</div>
+      <div class="bottom-overlay">
+        <button class="addtocart">Add To Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

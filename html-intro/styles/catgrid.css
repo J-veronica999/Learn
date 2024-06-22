@@ -1,0 +1,203 @@
+
+
+
+ 
+ 
+
+.cat-pic{
+  width:120px;
+  height: 120px;
+  object-fit: cover;
+  display:inline-block;
+  margin-bottom: 30px;
+  border:none;
+  border-radius: 80px;
+  margin-left: 10px;
+}
+
+ 
+  
+
+.profile-pic{
+  width:150px;
+  height: 100px;
+  display:inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+.follow-b{
+  
+ vertical-align: top;
+  height: 200px;
+  width:200px;
+  margin-left: 40px;
+  
+  
+  
+}
+.follow{
+ 
+  background-color: rgb(24, 119, 242);;
+  color:white;
+  font-weight: bold;
+  border:none;
+  vertical-align: middle;
+ 
+  width:40px;
+  padding-left:25px ;
+  padding-right:25px ;
+  padding-top:20px ;
+  padding-bottom:20px ;
+  border-radius: 5px;
+  text-align: center;
+  width:150px;
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-top: 85px;
+  font-size: 30px;
+  font-family: Arial;
+
+  
+  
+  
+
+}
+.profile-name{
+ 
+  width:200px;
+  height: 200px;
+ 
+  
+}
+.name{
+  font-weight: bold;
+  font-size: 35px;
+ 
+ 
+}
+.headline{
+  height: 30px;
+  margin-top: 40px;
+ 
+  
+  
+  
+ 
+}
+.variant,.status{
+  font-size: 35px;
+  color:gray;
+  margin-top: 20px;
+  
+}
+.subtitle{
+  height: 30px;
+ 
+  
+  
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+
+.box{
+  display: inline-block;
+  vertical-align: top;
+}
+.verticalmini-card{
+  
+  height:400px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.8);
+  display:inline-block;
+ 
+}
+.vertical-pic{
+  width:100%;
+  height: 250px;
+}
+.profile-picvertical{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.vertical-info{
+  width:100%;
+  height:142px;
+  
+}
+.catv-name{
+  width:100%;
+  height:34px;
+ 
+}
+.oliver{
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+ 
+  
+ 
+ 
+
+.verticalProfile{
+  display:inline-block;
+  width:45px;
+  height: 60px;
+  
+}
+.mutual-friendstext{
+  display:inline-block;
+  width:130px;
+  height: 60px;
+  vertical-align: top;
+}
+.olivercircle{
+  border-radius: 80px;
+  border:none;
+  width:40px;
+  height:40px;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline-block;
+
+}
+.mutualfriends{
+  display:inline-block;
+  color:gray;
+  margin-top: 15px;
+  margin-left: 5px;
+
+}
+.addfriend{
+  margin-top:0px;
+  background-color:  rgb(24, 119, 242);
+  color:white;
+  text-align: center;
+  border:none;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.AddFrienddiv{
+  height: 50px;
+}
+
+
+
+
+  
+

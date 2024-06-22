@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .grid-container{
+      display:grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      width:748px;
+      grid-template-rows: 414px 130px 155px 20px;
+      height:748px;
+      gap:9px;
+      background-color: #000;
+     
+    }
+    .item{
+      background-color: #F0F1EC;
+    }
+    .red{
+      background-color: #e72f24;
+    }
+    .second{
+      grid-column: span 3;
+    }
+    .third{
+      grid-row: span 2;
+
+    }
+    .fourth{
+     grid-row: span 2;
+     grid-column: span 2;
+    }
+    .fifth{
+      background-color: #004592;
+      border-bottom: 9px solid #000;
+    }
+    .sixth{
+      grid-row: span 2;
+    }
+    .seventh{
+      border-bottom: none;
+    }
+    .eigth{
+      background-color: #F9D01E;
+    }
+    .ninth{
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+  <div class="red"></div>
+  <div class="item second"></div>
+  <div class="item third"></div>
+  <div class="item fourth"></div>
+   <div class="fifth"></div> 
+  <div class="item sixth"></div>
+  <div class="item seventh"></div>
+  <div class="item eigth"></div>
+  <div class="item ninth"></div>
+  
+  
+  
+
+  
+  </div>
+
+
+ 
+
+</body>
+
+</html>

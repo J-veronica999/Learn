@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>grids</title>
+    <style>
+      .grid{
+        display:grid;
+        grid-template-columns: 200px 75px;
+        margin-top: 10px;
+
+      }
+      .grid2{
+        display:grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 10px;
+      }
+      .column1{
+        background-color: lightcoral;
+
+      }
+      .column2{
+        background-color: lightgray;
+      }
+      .column3{
+        background-color: lightgreen;
+      }
+
+    </style>
+  </head>
+  <body style="padding-bottom:1000px;">
+    <div style="
+      margin-top: 30px;
+      display:grid;
+      grid-template-columns:100px 100px 1fr 2fr ;
+      ">
+      <div style="
+      background-color:lightpink ;
+      ">div 1</div>
+      <div style="
+      background-color: lightblue;
+      ">div 2<p>text</p></div>
+      <div style="
+      background-color: beige;
+      ">1fr</div>
+      <div style="
+      background-color: rgb(234, 234, 111);
+      ">2fr</div>
+       </div>
+   
+   <div class="grid">
+    <div class="column1">200px</div>
+    <div class="column2">75px</div>
+   </div>
+   <div class="grid2">
+    <div class="column1">50px</div>
+    <div class="column2">1frpx</div>
+    <div class="column3">75px</div>
+   </div>
+    
+  </body>
+</html>

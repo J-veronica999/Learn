@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      darkmode Facebook
+    </title>
+    <style>
+      p{
+        font-family: Arial;
+        margin: 0px;
+      }
+      .header{
+        position:fixed;
+        top:0px;
+        left:0px;
+        right:0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+        justify-content: space-between;
+        background-color: black;
+        
+       
+        display:flex;
+        flex-direction: row;
+       
+
+      }
+      .left-section{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+        height:48px;
+        margin-left:90px;
+        width:500px;
+      }
+      .right-section{
+        display:flex;
+        flex-direction: row;
+        width:350px;
+       
+       
+        align-items: center;
+       
+        height:48px;
+      }
+      .catpic{
+        width:35px;
+        height:35px;
+
+       
+        
+        
+      }
+      .smallcircle{
+        width:35px;
+        height: 35px;
+        border:none;
+        border-radius: 17.5px;
+        object-fit: cover ;
+      }
+      .name{
+        width:500px;
+        height:48px;
+        display:flex;
+        align-items: center;
+        margin-left: 10px;
+        font-weight: bold;
+        font-family: Arial;
+        color:white;
+         
+
+
+      }
+      .addfriend{
+       
+        
+        background-color: rgb(24, 119, 242);;
+        color:white;
+        font-weight: bold;
+        border:none;
+        
+       
+       
+        
+        padding-left:12px;
+        padding-right:12px;
+        padding-top:8px;
+        padding-bottom:8px ;
+        border-radius: 6px;
+        text-align: center;
+        margin-right: 8px;
+       
+       
+      
+        font-family: Arial;
+      }
+
+      .message{
+        background-color: rgb(135, 133, 133);;
+        color:white;
+        font-weight: bold;
+        border:none;
+        
+       
+       
+        
+        padding-left:12px;
+        padding-right:12px;
+        padding-top:8px;
+        padding-bottom:8px ;
+        border-radius: 6px;
+        text-align: center;
+        margin-right: 8px;
+       
+        
+      }
+      .sidebar{
+        position:fixed;
+        display:flex;
+        flex-direction: row;
+        left:0px;
+        bottom:0px;
+        width:350px;
+        background-color: black;
+        top:68px;
+      }
+      .left-side{
+        width:100px;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 15px;
+        display:flex;
+
+      }
+      .right-side{
+        width:250px;
+        background-color: rgb(55, 55, 55);
+        display:flex;
+        flex-direction: column;
+      }
+      .bigcircle{
+        width:70px;
+        height:70px;
+        border-radius: 35px;
+        object-fit: cover;
+        border:none;
+        margin-top: 10px;
+        margin-bottom: 8px;
+      }
+      .info{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 10px;
+      }
+      .maintext{
+        color:white;
+        font-weight: bold;
+
+      }
+      .plus{
+        color:rgb(150, 150, 150);
+       
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      .line{
+        margin-left: 18px;
+        color:rgb(150, 150, 150);
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 16px;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="catpic">
+          <img class="smallcircle" src="images/cat1.jpg">
+      </div>  
+        <div class="name">Oliver Cat</div>
+      </div>  
+      <div class="right-section">
+        <button class="addfriend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="left-side">
+        <img class="bigcircle" src="images/cat1.jpg">
+        <img class="bigcircle" src="images/cat3.jpg">
+        <img class="bigcircle" src="images/mimi.webp">
+      </div>
+      <div class="right-side">
+        <div class="info">
+          <p class="maintext">INFO</p>
+          <p class="plus">+</p>
+        </div>
+        <div class="line"># new-videos</div>
+        <div class="line"># updates</div>
+        <div class="line"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>

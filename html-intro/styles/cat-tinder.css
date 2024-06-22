@@ -1,0 +1,63 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+.box{
+  display:inline-block;
+  width:200px;
+  height: 300px;
+  border:none;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.8 );
+}
+.cat1{
+  display:inline-block;
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+
+}
+.cat-name{
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.stats{
+  margin-top: 5px;
+  margin-left: 10px;
+  color:gray;
+  font-size: 15px;
+}
+.AddFriend{
+  margin-top:8px;
+  background-color:  rgb(24, 119, 242);
+  color:white;
+  text-align: center;
+  border:none;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom:5px ;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+
+}
+.cat2{
+  display:inline-block;
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.cat3{
+  display:inline-block;
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+
+}

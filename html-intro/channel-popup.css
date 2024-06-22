@@ -1,0 +1,51 @@
+
+
+.popup-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width:170px;
+  box-shadow:0px 1px 4px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding-left: 8px;
+}
+.info-flex{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 5px;
+  width:150px;
+}
+.headline{
+  font-size:12px;
+  font-weight: bold;
+  color:black;
+  display:flex;
+  justify-content: start;
+  margin-bottom: 5px;
+  font-family: Roboto,Arial,sans-serif;
+  margin:0px;
+  font-size: 12px;
+  
+}
+.subtitle{
+  color:gray;
+  font-family: Roboto,Arial,sans-serif;
+  margin:0px;
+  font-size: 12px;
+
+}
+.channelcircle{
+  border:none;
+  width:40px;
+  height:40px;
+  border-radius: 20px;
+}
+.autherpic{
+  display:flex;
+  align-items: center;
+  
+  
+  width:50px;
+}

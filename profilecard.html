@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+      .container{
+        display:flex;
+        flex-direction: column;
+        width:310px;
+        height:360px;
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.15);
+        overflow: hidden;
+        border-radius: 20px;
+        position:absolute;
+        top:30px;
+        right:100px;
+        left:100px;
+
+        
+      }
+      .bigrow1{
+        background-color: rgb(0, 136, 255);
+        height:130px;
+        white-space: nowrap;
+        display:flex;
+        justify-content: center;
+        
+        position:relative;
+        
+       
+
+      }
+      .bigrow2{
+        height: 230px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        
+      }
+      .circle{
+      
+        width:105px;
+        height: 105px;
+        position:absolute;
+        bottom:-23px;
+        border-radius: 52.5px;
+       background-color:rgb(0, 136, 255) ;
+       padding-bottom: 15px;
+       padding-left:3px ;
+       padding-right: 3px;
+       
+       
+      }
+      .circlepic{
+        width:104px;
+        height: 104px;
+        border-radius: 52px;
+        border:2px solid white;
+        position:absolute;
+        bottom:-20px;
+        object-fit: cover;
+      }
+      .line1,.line2, .line3, .line4{
+        height:20px;
+        font-family: Arial;
+        margin-bottom: 10px;
+      }
+      .line1{
+        
+        font-size: 20px;
+      }
+      .line2{
+        font-size: 13px;
+        color:grey;
+        margin-bottom:8px;
+      }
+      .line3{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height:30px;
+        margin-bottom: 8px;
+      }
+      .line4{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px;
+       
+        height: 50px;
+      }
+      .line5{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        height: 30px;
+        font-family: Arial;
+      }
+      .logocircle{
+        width:30px;
+        height: 30px;
+        border:none;
+        border-radius: 15px;
+        margin-right: 12px;
+        object-fit: cover;
+      }
+      .subscribe{
+        background-color: rgb(0, 136, 255);
+        padding:10px 30px;
+        border:none;
+        border-radius: 20px;
+        color:white;
+        margin-right: 10px;
+        font-size:15px;
+        text-align: center;
+        transition:background-color 0.15s;
+      
+      }
+      .subscribe:hover{
+        cursor: pointer;
+        background-color:rgb(76, 162, 236) ;
+      }
+      .icons, .icons3{
+        height: 30px;
+        width:75px;
+        border-right-width:1px;
+        border-right-color:rgb(203, 197, 197);
+        border-right-style: solid;
+        margin-right: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .icons3{
+        border:none;
+      }
+      .iconpic{
+        height: 15px;
+        width:15px;
+        border:none;
+        display:inline-block;
+        object-fit: cover;
+        margin-right: 5px;
+        
+      }
+     
+      .icontext{
+        display:inline-block;
+        margin-right: 12px;
+        color:rgb(101, 101, 101);
+        font-weight:lighter;
+      }
+      .body{
+        font-family: 'Poppins', sans-serif;
+      }
+      
+        
+        
+
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bigrow1">
+        <div class="circle">
+         
+        </div>
+        <img class="circlepic" src="header-images/IMG_3230.JPG">
+      </div>
+      <div class="bigrow2">
+        <div class="line1">CodingLab</div>
+        <div class="line2">Youtuber & Blogger</div>
+        <div class="line3">
+          <a class="link" href="https://www.facebook.com/mustansir.lokhandwala.739">
+            <img class="logocircle" src="html-intro/images/Facebook_Logo.png">
+
+          </a>
+          <a class="link" href="https://twitter.com/musstansirr_lok">
+            <img class="logocircle" src="html-intro/images/twitterlogo.jpg">
+
+          </a>
+          <a class="link" href="https://www.instagram.com/musstansirr.l/">
+            <img class="logocircle" src="html-intro/images/instagram-logo.jpeg">
+
+          </a>
+          <a class="link" href="https://www.youtube.com/channel/UCOxhwqKKlVq_NaD0LVffGuw">
+            <img class="logocircle" src="html-intro/images/youtube-logo.png">
+
+          </a>
+          
+         
+          
+
+
+        </div>
+        <div class="line4">
+          <button class="subscribe">Subscribe</button>
+          <button class="subscribe">Message</button>
+        </div>
+        <div class="line5">
+          <div class="icons">
+            <img class="iconpic" src="html-intro/images/heart2.png">
+            <p class="icontext" >60k &#124;</p>
+          </div>
+          <div class="icons">
+            <img class="iconpic" src="html-intro/images/Comment.png">
+            <p class="icontext" >20k &#124;</p>
+          </div>
+          <div class="icons3">
+            <img class="iconpic" src="html-intro/images/reply.png">
+            <p class="icontext" >12k &#124;</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

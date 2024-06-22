@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .row{
+        display:flex;
+        flex-direction: row;
+        margin-top: 20px;
+        height: 50px;
+      }
+      .element{
+        background-color: lightgreen;
+        width:100px;
+       
+      }
+      .row2{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .item2{
+        background-color: black;
+        color:white;
+      }
+    
+      
+      .element2{
+        background-color: lightgrey;
+        width:200px;
+        display:flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="display:flex;
+    
+    flex-direction: row;">
+      <div style="background-color: lightcoral;
+      width:200px;
+        ">column1</div>
+      <div style="background-color: rgb(230, 21, 21);
+      width:75">column2</div>
+    </div>
+    <div style="display:flex;
+ flex-direction: row;
+ margin-top: 20px;">
+      <div style="background-color: lightcoral;
+      width:50px;
+        ">column1</div>
+      <div style="background-color: rgb(230, 21, 21);
+      flex:1;">column2</div>
+      <div style="background-color: lightcoral;
+      width:75px;
+        ">column3</div>
+    </div>
+
+    <div style="display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.8);">
+         <div style="background-color: lightcoral;
+         width:100px;
+           ">column1</div>
+         <div style="background-color: rgb(230, 21, 21);
+         width:100px;">column2</div>
+         <div style="background-color: lightcoral;
+         width:100px;
+           ">column3</div>
+           <div style="background-color: rgb(233, 28, 28);
+           width:100px;
+             ">column4</div>
+       </div>
+
+       <div class="row">
+        <div class="element">
+        
+        </div>
+        <div class="element2">
+          <div class="item1">row 1</div>
+          <div class="row2">
+            <div class="item2">row 2</div>
+            <div class="item2">row 2</div>
+
+          </div>
+         
+        </div>
+       </div>
+
+   
+
+
+
+
+
+  </body>
+</html>

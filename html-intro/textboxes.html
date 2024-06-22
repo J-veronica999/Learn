@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" , initial-scale="1.0">
+  <title>Document</title>
+  <style>
+    .search{
+      border-radius: 5px;
+      padding:10px;
+      font-size: 20px;
+      border:1px solid gray;
+      display:block;
+      margin-bottom: 10px;
+    }
+    p{
+      margin:0px;
+    }
+    .email{
+      margin: 5px 0px;
+      width:250px;
+      padding:2px
+    }
+    .agree,.mail{
+      color:gray;
+    }
+    .agree{
+      font-size: 0.8rem;
+    }
+    #agree{
+      border:none;
+      border-radius: 20px;
+      width:300px;
+      padding:10px 15px;
+      display:flex;
+      justify-content: center;
+      margin: 10px 1px;
+      color:white;
+      background-color: rgb(11, 109, 230);
+    }
+    .catdiv{
+      display:flex;
+      flex-direction: row;
+    }
+    .catdiv img{
+      width:50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: black;
+      object-fit: contain;
+    }
+    .catdiv input{
+      margin-left: 8px;
+      margin-right: 50px;
+      border:none;
+    }
+    .catdiv button{
+      border:none;
+      border-radius: 20px;
+      font-weight: bold;
+      padding:10px 20px;
+      display:flex;
+      justify-content: center;
+      margin: 10px 1px;
+      color:white;
+      background-color: rgb(11, 142, 230);
+    }
+    .survey{
+      display:flex;
+      flex-direction:row ;
+      margin-top: 10px;
+    }
+    .survey p,  button{
+      margin-right: 10px;
+    }
+    .google{
+      display:flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+    .google img{
+      width: 200px;   
+    }
+    .google input{
+      width:500px;
+      border-radius: 15px;
+      border: none;
+      padding: 10px 15px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    }
+    .google input:active{
+      border:none;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" placeholder="Search" class="search">
+  <p class="mail">Email</p>
+  <input  class="email" type="text">
+  <p class="agree">By clicking Agree & Join, you agree to the Privacy Policy</p>
+  <button id="agree">Agree & Join</button>
+  <div class="catdiv">
+    <img src="./images/coolcat.png">
+    <input type="text" placeholder="What's happenin?">
+    <button>Tweet</button>
+  </div>
+  <div class="survey">
+    <p>Thanks for taking the fuckin survey,<br> would you like to give feedback</p>
+    <button>Yes</button>
+    <button>No</button>
+  </div>
+  <div class="google">
+    <img src="./images/searchform-google.png">
+    <input type="text" placeholder="Search Google or type a URL">
+  </div>
+  
+</body>
+</html>

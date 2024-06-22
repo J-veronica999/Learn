@@ -1,0 +1,45 @@
+<style>
+  .stretch-b{
+    background-color: green;
+    color:white;
+    border:none;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: padding-left 0.5s, padding-right 0.5s, background-color 0.5s;
+  }
+  .stretch-b:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .stretch-b:active{
+    background-color: black;
+  }
+  .shadow-b{
+    background-color: green;
+    color:black;
+    border:none;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition:box-shadow 0.15s, margin-top 0.15s, margin-left 0.15s;
+    align-self: self-end;
+  }
+  .shadow-b:hover{
+    box-shadow: 3px 4px 8px rgba(0,0,0,.6);
+  }
+  .shadow-b:active{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: none;
+  }
+</style>
+<button class = "stretch-b"> Stretch</button>
+<button class = "shadow-b"> Shadow</button>
